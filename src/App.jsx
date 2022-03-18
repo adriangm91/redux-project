@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import TodoList from './components/TodoList';
 
-const App = function (){
+const App = function() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <TodoList />
     </div>
   );
 

@@ -11,7 +11,7 @@ module.exports = {
         exclude: /(node_modules)/, // excluir los modulos
         loader: 'babel-loader',
         options: {
-          preset:['@babel/env']
+          presets:['@babel/env']
         }
       },
       {
