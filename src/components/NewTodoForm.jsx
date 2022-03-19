@@ -23,6 +23,8 @@ return (
       if (!isDuplicate) {
         onCreatePressed(inputValue);
         setInputValue('');
+      } else {
+        alert('Esa tarea ya existe');
       }
     }}
     >Create ToDo</button>
